@@ -1,0 +1,36 @@
+{
+  "name": "todo-rethink-koa",
+  "version": "0.0.0",
+  "description": "This is a sample TODO app based on RethinkDB, Koa, Node.js and AngularJS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiveditN/todo-rethink-koa.git"
+  },
+  "keywords": [
+    "RethinkDB",
+    "Koa",
+    "Node.js",
+    "AngularJS"
+  ],
+  "author": "NiveditN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NiveditN/todo-rethink-koa/issues"
+  },
+  "homepage": "https://github.com/NiveditN/todo-rethink-koa#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "co": "^4.6.0",
+    "co-assert-timeout": "0.0.5",
+    "co-body": "^4.0.0",
+    "koa": "^0.21.0",
+    "koa-router": "^5.1.2",
+    "koa-static": "^1.4.9",
+    "rethinkdb": "^2.1.0"
+  }
+}
